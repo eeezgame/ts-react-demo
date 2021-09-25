@@ -77,7 +77,7 @@ class App extends React.Component {
                         <a href="#/HelloHOC">HelloHOC</a> <a href="#/HelloHOC?name=Runki">HelloHOC React</a>
                     </li>
                     <li>
-                        <a href="#/UserQueryList">UserQueryList</a> <a href="#/Hello?userName=Eclair">Search Eclair</a>
+                        <a href="#/UserQueryList">UserQueryList</a> <a href="#/UserQueryList?userName=Eclair">Search Eclair</a>
                     </li>
                 </ul>
                 <Child {...Props}></Child>
